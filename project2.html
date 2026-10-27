@@ -1,42 +1,117 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="external.css" />
-    <title>AARUSH DUTT - CV</title>
-    <a href="www.google.com">Visit Example Website</a>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="Box" style="display: flex">
-      <img
-        src="Images/aarush.jpg"
-        alt=""
-        srcset=""
-        style="height: auto; width: 21cm"
-      />
-      <h1>AARUSH DUTT</h1>
-      <p><b>Department:</b> CSIT, KIET Group of Institutions</p>
-      <p><b>Location:</b> Ghaziabad</p>
-    </div>
-    <h2>Profile</h2>
-    <p>
-      ENthusiastic CS professional with academic background in CSIT at
-      KIET, Ghaziabad.
-    </p>
-    <h2>Education</h2>
-    <p>KIET Group of Institutions – CSIT Department, Ghaziabad</p>
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming in C++</li>
-      <li>Digital Logic Design</li>
-      <li>Cloud Foundations</li>
-      <li>Problem Solving & Algorithms</li>
-    </ul>
-    <h2>Interests</h2>
-    <ul>
-      <li>Music</li>
-      <li>Movies</li>
-      <li>Shooting Games</li>
-      <li>Learning new technologies</li>
-    </ul>
+    <header>
+      <div id="title" style="padding: 15px; margin-bottom: 10px">
+        <p1 class="p1" style="margin-left: 30px">Home</p1>
+        <p1 class="p2" style="margin-left: 30px">About</p1>
+        <p1 class="p3" style="margin-left: 30px">Contact</p1>
+      </div>
+    </header>
+
+    <main>
+      <div class="info">
+        <img
+          src="https://i.guim.co.uk/img/media/d9ad49db2bbf74cf1cce4e6ff6209d139bed7617/0_0_5675_3728/master/5675.jpg?width=620&dpr=2&s=none&crop=none"
+          id="myimage"
+          alt="image"
+        />
+        <div class="text1">
+          <h1
+            style="
+              font-family:
+                &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
+            "
+          >
+            Aarush Dutt
+          </h1>
+          <div class="text2">
+            <h3>Student of CSIT, at KIET group of instituitions</h3>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              placeat tempore velit illum eos delectus error voluptatum sint vel
+              pariatur.
+            </h4>
+          </div>
+          <a class="rdmore" href="https://net77.cc/home" target="_blank"
+            >Read More</a
+          >
+        </div>
+      </div>
+      <div class="info2">
+        <h2>Profile</h2>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus sit
+        consequuntur saepe. Beatae assumenda ipsa quae provident ab totam
+        officia esse facilis eveniet nulla vel, commodi praesentium
+        <hr />
+        <h2>Educational Qualification</h2>
+        A student, pursuing B.Tech from CSIT at KIET.
+        <hr />
+        <h2>Skills</h2>
+        <ul>
+          <li>Data Logic Design</li>
+          <li>Cloud Foundation</li>
+          <li>Programming in C++</li>
+          <li>Problem Solving and Algorithm</li>
+        </ul>
+        <hr />
+        <h2>Interests</h2>
+        deleniti. Laboriosam culpa, ex nihil vitae voluptatum cum commodi,
+        rerum, architecto provident mollitia minima. Vero harum sapiente sit
+        aliquam nihil cum asperiores tempore, temporibus blanditiis commodi
+        voluptatem eum error neque deleniti deserunt vitae excepturi dolor.
+        Dignissimos odit
+      </div>
+    </main>
   </body>
+  <style>
+    body {
+      padding: 0px;
+    }
+    header {
+      font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      background-color: aquamarine;
+      padding: 0px;
+    }
+    .info {
+      font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      display: flex;
+      padding: 38px;
+      line-height: 50px;
+      border: 1px solid;
+      border-radius: 8px;
+      border-color: black;
+    }
+    .info2 {
+      font-size: 17px;
+      margin-top: 10px;
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px black solid;
+    }
+    .text2 {
+      line-height: 20px;
+    }
+    .rdmore {
+      color: rgb(25, 207, 146);
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: 23px;
+      text-decoration: none;
+    }
+    .text1 {
+      padding-left: 20px;
+    }
+    #myimage {
+      width: auto;
+      padding-top: 20px;
+      height: 5cm;
+    }
+  </style>
 </html>
